@@ -84,7 +84,7 @@ export default function Dropzone() {
                     )}
                     >
                         <input {...getInputProps()} />
-                        <p>Drag 'n' drop some files here, or click to select files</p>
+                        <p>Drag & drop some files here, or click to select files</p>
                         {!isDragActive && "Click here or drop a file to upload!"}
                         {isDragActive && !isDragReject && "Drop to upload this file!"}
                         {isDragReject && "File type not accepted, sorry !"}
